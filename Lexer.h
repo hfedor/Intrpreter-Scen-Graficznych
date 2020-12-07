@@ -22,7 +22,6 @@ public:
 	TokenType ReadKeywordToken();
 	TokenType ReadSymbolToken();
 	TokenType ReadNumberToken(std::string* readValue);
-	bool TryToBuildTextToken();
 	TokenType ReadStringToken(std::string* readValue);
 	TokenType ReadIdentifierToken(std::string* readValue);
 };
